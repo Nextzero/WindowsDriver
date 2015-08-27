@@ -1,0 +1,9 @@
+TARGETNAME=SYS_FilterDriver
+TARGETTYPE=DRIVER
+TARGETPATH=OBJ
+
+INCLUDES=$(BASEDIR)\inc;\
+         $(BASEDIR)\inc\ddk;\
+
+SOURCES=SysMain.cpp\
+		

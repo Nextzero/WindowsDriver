@@ -1,0 +1,11 @@
+TARGETNAME=SYS_MinFsFilter
+TARGETTYPE=DRIVER
+TARGETPATH=OBJ
+
+TARGETLIBS=D:\MSDDK\WDK\lib\wlh\i386\fltMgr.lib
+
+INCLUDES=$(BASEDIR)\inc;\
+         $(BASEDIR)\inc\ddk;\
+
+SOURCES=SysMain.cpp\
+		

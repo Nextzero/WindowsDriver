@@ -1,0 +1,9 @@
+TARGETNAME=SYS_BaseDriver
+TARGETTYPE=DRIVER
+TARGETPATH=OBJ
+
+INCLUDES=$(BASEDIR)\inc;\
+         $(BASEDIR)\inc\ddk;\
+
+SOURCES=SysMain.cpp\
+		

@@ -1,0 +1,8 @@
+TARGETNAME=SYS_Example
+TARGETTYPE=DRIVER
+TARGETPATH=OBJ
+
+INCLUDES=$(BASEDIR)\inc;\
+         $(BASEDIR)\inc\ddk;\
+
+SOURCES=SysExample.cpp\

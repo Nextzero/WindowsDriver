@@ -1,0 +1,8 @@
+TARGETNAME=SYS_CallDriver
+TARGETTYPE=DRIVER
+TARGETPATH=OBJ
+
+INCLUDES=$(BASEDIR)\inc;\
+         $(BASEDIR)\inc\ddk;\
+
+SOURCES=SysCallDriver.cpp\

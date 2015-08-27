@@ -1,0 +1,10 @@
+VOID DriverUnload(IN PDRIVER_OBJECT pDriverObject)
+{
+	PDEVICE_OBJECT tDeviceObj = pDriverObject->DeviceObject;
+	PMYDEVICE_EXTENSION tDevExtend = (PMYDEVICE_EXTENSION)tDeviceObj->DeviceExtension;
+
+
+上述是正确的。
+
+当时将tDeviceObj,写成了pDriverObject->DriverExtension
+拿到的是驱动对象扩展，而不是设备对象扩展

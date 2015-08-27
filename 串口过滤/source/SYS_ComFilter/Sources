@@ -1,0 +1,8 @@
+TARGETNAME=SYS_ComFilter
+TARGETTYPE=DRIVER
+TARGETPATH=OBJ
+
+INCLUDES=$(BASEDIR)\inc;\
+         $(BASEDIR)\inc\ddk;\
+
+SOURCES=SysMain.cpp\
